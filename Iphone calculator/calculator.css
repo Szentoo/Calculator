@@ -1,0 +1,73 @@
+body {
+    font-family: arial;
+  }
+  .background {
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 14px;
+    position: relative;
+    width: 235px;
+   
+  }
+ .screen-container{
+    position: relative;
+ }
+ .screen{
+    display: inline;
+    background-color: black;
+    color: lightgray;
+    font-size: 45px;   
+   text-align: right;
+   padding:90px 18px 0 0px;
+   margin: 0;
+   width: 92%;
+   border: none;
+   border-top-left-radius: 14px;
+   border-top-right-radius: 14px;
+   white-space: nowrap;
+ }
+  .numbers {
+    top: 90px;
+    margin: 4px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  button {
+    border-radius: 28px;
+    height: 52px;
+    width: 52px;
+    font-weight: 500;
+    font-size: 25px;
+    background-color: lightgrey;
+    border: none;
+    margin: 3px;
+  }
+  .szurke-buttons{
+    padding-top: 3px;
+  }
+  .szurke-buttons,
+  .elso-sor,
+  .masodik-sor,
+  .harmadik-sor,
+  .negyedik-sor {
+    display: flex;
+    margin: 3px 0 3px 0;
+  }
+  .negyedik-sor{
+  padding-bottom: 6px;
+  margin-bottom: 0;
+  }
+  .special {
+    background-color: orange;
+  }
+  .first {
+    background-color: gray;
+    color: white;
+  }
+  .zero {
+    padding-right: 64px;
+    width: 107px;
+    background-color: gray;
+    color: white;
+  }
